@@ -1,0 +1,85 @@
+.nav-bar {
+	margin: -1.5rem 0;
+	.nav-logo {
+		width: 130px;
+		height: 130px;
+
+		@include screen-sm {
+			width: 160px;
+			height: 160px;
+		}
+
+		@include screen-lg {
+			width: 180px;
+			height: 180px;
+		}
+	}
+
+	.nav-list {
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin-top: 8rem;
+		margin-left: 0.6rem;
+		width: 100%;
+
+		@include screen-lg {
+			position: static;
+			width: auto;
+			margin: 0;
+		}
+
+		.list-items {
+			transform: translateY(-300%);
+			transition: all 500ms ease;
+			background: $white;
+
+			&:hover .list-item {
+				filter: blur(5px);
+			}
+
+			@include screen-lg {
+				transform: translateY(0);
+				display: flex;
+			}
+
+			.list-item {
+				padding: 0.3rem 0;
+
+				&:hover {
+					filter: blur(0px);
+				}
+
+				@include screen-lg {
+					padding: 0 1rem;
+				}
+				a {
+					font-size: 18px;
+
+					@include screen-sm-apple {
+						font-size: 19px;
+					}
+
+					@include screen-sm {
+						font-size: 21px;
+					}
+					&:hover {
+						color: $green;
+					}
+				}
+			}
+		}
+	}
+}
+
+.active-menu {
+	transform: translateY(0) !important;
+}
+
+// ul:hover li {
+// 	filter: blur(5px);
+// }
+
+// ul li:hover {
+// 	filter: blur(0px);
+// }

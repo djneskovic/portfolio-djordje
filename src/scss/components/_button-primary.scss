@@ -1,0 +1,14 @@
+.btn-primary {
+	background: $green;
+	color: $white;
+	padding: 0.7rem 1.1rem;
+	border-radius: 5px;
+
+	&:hover {
+		background: #1f846b;
+	}
+
+	@include screen-lg {
+		padding: 0.9rem 1.8rem;
+	}
+}

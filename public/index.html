@@ -9,7 +9,25 @@
 		/>
 		<link rel="icon" href="<%= BASE_URL %>favicon.ico" />
 		<link rel="stylesheet" href="./css/style.css" />
+		<link href="./css/hamburgers.css" rel="stylesheet" />
+
 		<title><%= htmlWebpackPlugin.options.title %></title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							white: "#fffdf9",
+							green: "#156f5b",
+							black: "#212121",
+							gold: "#f3bf6c",
+							pink: "#fce3db",
+						},
+					},
+				},
+			};
+		</script>
 	</head>
 	<body>
 		<noscript>

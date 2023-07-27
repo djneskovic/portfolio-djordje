@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@import "./includes/variables-and-mixins";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	font-weight: 900;
+	background-color: $white;
+	color: $black;
+}
+
+.container {
+	max-width: 1250px !important;
+	margin: 0 auto;
+	padding: 0rem 2rem;
+
+	// @include screen-sm-apple {
+	// 	max-width: 370px !important;
+	// }
+
+	// @include screen-sm {
+	// 	max-width: 520px !important;
+	// }
+
+	// @include screen-md {
+	// 	max-width: 730px !important;
+	// }
+
+	// @include screen-lg {
+	// 	max-width: 900px !important;
+	// }
+
+	// @include screen-xl {
+	// 	max-width: 1200px !important;
+	// }
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+@import "../scss/components/button-primary";
+@import "../scss/components/header-navigation";
