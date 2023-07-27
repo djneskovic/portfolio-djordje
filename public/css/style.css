@@ -49,7 +49,7 @@ img {
     top: 0;
     left: 0;
     margin-top: 8rem;
-    margin-left: 0.6rem;
+    margin-left: 0.1rem;
     width: 100%; }
     @media screen and (min-width: 1024px) {
       .nav-bar .nav-list {
@@ -86,3 +86,54 @@ img {
 
 .active-menu {
   transform: translateY(0) !important; }
+
+.hamburger {
+  transform: scale(0.85); }
+
+@media screen and (min-width: 780px) {
+  .hero-main .hero-context {
+    margin-top: 4rem; } }
+
+.hero-main .hero-context_title {
+  font-size: 1.75rem; }
+  @media screen and (min-width: 420px) {
+    .hero-main .hero-context_title {
+      font-size: 2rem; } }
+  @media screen and (min-width: 481px) {
+    .hero-main .hero-context_title {
+      font-size: 2.4rem; } }
+  @media screen and (min-width: 780px) {
+    .hero-main .hero-context_title {
+      font-size: 1.6rem; } }
+  @media screen and (min-width: 1024px) {
+    .hero-main .hero-context_title {
+      font-size: 2.4rem; } }
+  @media screen and (min-width: 1280px) {
+    .hero-main .hero-context_title {
+      font-size: 3.4rem; } }
+
+.hero-main .hero-context_text {
+  margin: 1.5rem 0 2rem 0;
+  color: #4d4d4d;
+  font-size: 0.9rem; }
+  @media screen and (min-width: 420px) {
+    .hero-main .hero-context_text {
+      font-size: 1.1rem; } }
+  @media screen and (min-width: 481px) {
+    .hero-main .hero-context_text {
+      font-size: 1.3rem; } }
+  @media screen and (min-width: 780px) {
+    .hero-main .hero-context_text {
+      font-size: 1.1rem; } }
+  @media screen and (min-width: 1024px) {
+    .hero-main .hero-context_text {
+      font-size: 1.4rem; } }
+  @media screen and (min-width: 1280px) {
+    .hero-main .hero-context_text {
+      font-size: 1.5rem; } }
+
+.hero-main .hero-image {
+  margin-top: 2rem; }
+  @media screen and (min-width: 780px) {
+    .hero-main .hero-image {
+      margin: 0rem; } }
