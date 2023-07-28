@@ -62,3 +62,11 @@
 		}
 	}
 }
+
+#hero {
+	@include screen-lg {
+		min-height: 80vh;
+		display: grid;
+		place-items: center;
+	}
+}

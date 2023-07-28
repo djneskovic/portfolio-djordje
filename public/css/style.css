@@ -137,3 +137,103 @@ img {
   @media screen and (min-width: 780px) {
     .hero-main .hero-image {
       margin: 0rem; } }
+
+@media screen and (min-width: 1024px) {
+  #hero {
+    min-height: 80vh;
+    display: grid;
+    place-items: center; } }
+
+.about-me {
+  margin-top: 4rem; }
+  .about-me .about-title {
+    font-size: 1.55rem;
+    position: relative; }
+    @media screen and (min-width: 481px) {
+      .about-me .about-title {
+        font-size: 1.7rem; } }
+    @media screen and (min-width: 780px) {
+      .about-me .about-title {
+        font-size: 2rem; } }
+    @media screen and (min-width: 1024px) {
+      .about-me .about-title {
+        font-size: 2.4rem; } }
+    @media screen and (min-width: 1280px) {
+      .about-me .about-title {
+        font-size: 2.7rem; } }
+    .about-me .about-title::after {
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      left: 50%;
+      transform: translateX(-25px);
+      width: 50px;
+      height: 3px;
+      background-color: #156f5b; }
+  .about-me .about-section .about-context {
+    margin-top: 2rem; }
+    @media screen and (min-width: 780px) {
+      .about-me .about-section .about-context {
+        width: 40%;
+        margin-top: 4rem; } }
+    @media screen and (min-width: 1280px) {
+      .about-me .about-section .about-context {
+        width: 60%; } }
+    .about-me .about-section .about-context h3 {
+      font-size: 1.3rem;
+      line-height: 24px;
+      font-weight: bold; }
+      @media screen and (min-width: 481px) {
+        .about-me .about-section .about-context h3 {
+          font-size: 1.45rem; } }
+      @media screen and (min-width: 780px) {
+        .about-me .about-section .about-context h3 {
+          font-size: 1.55rem;
+          line-height: 30px; } }
+      @media screen and (min-width: 1024px) {
+        .about-me .about-section .about-context h3 {
+          font-size: 1.7rem; } }
+      @media screen and (min-width: 1280px) {
+        .about-me .about-section .about-context h3 {
+          font-size: 1.9rem; } }
+      .about-me .about-section .about-context h3 span {
+        position: relative; }
+        .about-me .about-section .about-context h3 span::after {
+          content: "";
+          position: absolute;
+          bottom: -3px;
+          left: 0;
+          width: 20px;
+          height: 3px;
+          background-color: #156f5b; }
+          @media screen and (min-width: 780px) {
+            .about-me .about-section .about-context h3 span::after {
+              bottom: -1px; } }
+    .about-me .about-section .about-context .about-text {
+      color: #4d4d4d;
+      margin: 2rem 0;
+      font-size: 0.9rem; }
+      @media screen and (min-width: 481px) {
+        .about-me .about-section .about-context .about-text {
+          font-size: 1rem; } }
+      @media screen and (min-width: 1024px) {
+        .about-me .about-section .about-context .about-text {
+          font-size: 1.1rem; } }
+  .about-me .about-section .about-image {
+    margin-top: 4rem;
+    border: 10px solid #fce3db;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px; }
+    @media screen and (min-width: 780px) {
+      .about-me .about-section .about-image {
+        margin: 0;
+        width: 250px;
+        height: 250px;
+        margin-bottom: -5rem; } }
+    @media screen and (min-width: 1024px) {
+      .about-me .about-section .about-image {
+        width: 300px;
+        height: 300px; } }
+    .about-me .about-section .about-image img {
+      height: 100%; }

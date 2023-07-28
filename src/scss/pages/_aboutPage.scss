@@ -1,0 +1,129 @@
+.about-me {
+	margin-top: 4rem;
+
+	.about-title {
+		font-size: 1.55rem;
+		position: relative;
+
+		@include screen-sm {
+			font-size: 1.7rem;
+		}
+
+		@include screen-md {
+			font-size: 2rem;
+		}
+
+		@include screen-lg {
+			font-size: 2.4rem;
+		}
+
+		@include screen-xl {
+			font-size: 2.7rem;
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			bottom: -2px;
+			left: 50%;
+			transform: translateX(-25px);
+			width: 50px; //* Moraces da povecavas width u odnosu na responsive, tj kad se promeni font
+			height: 3px;
+			background-color: $green;
+		}
+	}
+
+	.about-section {
+		.about-context {
+			margin-top: 2rem;
+
+			@include screen-md {
+				width: 40%;
+				margin-top: 4rem;
+			}
+
+			@include screen-xl {
+				width: 60%;
+			}
+
+			h3 {
+				font-size: 1.3rem;
+				line-height: 24px;
+				font-weight: bold;
+
+				@include screen-sm {
+					font-size: 1.45rem;
+				}
+
+				@include screen-md {
+					font-size: 1.55rem;
+					line-height: 30px;
+				}
+
+				@include screen-lg {
+					font-size: 1.7rem;
+				}
+
+				@include screen-xl {
+					font-size: 1.9rem;
+				}
+
+				span {
+					position: relative;
+
+					&::after {
+						content: "";
+						position: absolute;
+						bottom: -3px;
+						left: 0;
+						width: 20px; //* Moraces da povecavas width u odnosu na responsive, tj kad se promeni font
+						height: 3px;
+						background-color: $green;
+
+						@include screen-md {
+							bottom: -1px;
+						}
+					}
+				}
+			}
+
+			.about-text {
+				color: $grey;
+				margin: 2rem 0;
+				font-size: 0.9rem;
+
+				@include screen-sm {
+					font-size: 1rem;
+				}
+
+				@include screen-lg {
+					font-size: 1.1rem;
+				}
+			}
+		}
+
+		.about-image {
+			margin-top: 4rem;
+			border: 10px solid $pink;
+			border-radius: 5px;
+			width: 300px;
+			height: 300px;
+
+			@include screen-md {
+				margin: 0;
+				width: 250px;
+				height: 250px;
+				margin-bottom: -5rem;
+			}
+
+			@include screen-lg {
+				width: 300px;
+				height: 300px;
+			}
+
+			img {
+				height: 100%;
+			}
+		}
+	}
+}
