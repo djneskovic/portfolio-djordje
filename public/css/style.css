@@ -27,7 +27,8 @@ img {
   background: #156f5b;
   color: #fffdf9;
   padding: 0.7rem 1.1rem;
-  border-radius: 5px; }
+  border-radius: 5px;
+  cursor: pointer; }
   .btn-primary:hover {
     background: #1f846b; }
   @media screen and (min-width: 1024px) {
@@ -107,7 +108,7 @@ img {
       font-size: 2.4rem; } }
   @media screen and (min-width: 780px) {
     .hero-main .hero-context_title {
-      font-size: 1.6rem; } }
+      font-size: 2rem; } }
   @media screen and (min-width: 1024px) {
     .hero-main .hero-context_title {
       font-size: 2.4rem; } }
