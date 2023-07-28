@@ -1,11 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 900;
   background-color: #fffdf9;
   color: #212121; }
@@ -145,7 +148,7 @@ img {
     place-items: center; } }
 
 .about-me {
-  margin-top: 4rem; }
+  margin: 3rem 0 4rem; }
   .about-me .about-title {
     font-size: 1.55rem;
     position: relative; }
@@ -237,3 +240,59 @@ img {
         height: 300px; } }
     .about-me .about-section .about-image img {
       height: 100%; }
+
+.service-page .service-title {
+  font-size: 1.2rem;
+  position: relative; }
+  @media screen and (min-width: 481px) {
+    .service-page .service-title {
+      font-size: 1.7rem; } }
+  @media screen and (min-width: 780px) {
+    .service-page .service-title {
+      font-size: 2rem; } }
+  @media screen and (min-width: 1024px) {
+    .service-page .service-title {
+      font-size: 2.4rem; } }
+  @media screen and (min-width: 1280px) {
+    .service-page .service-title {
+      font-size: 2.7rem; } }
+  .service-page .service-title::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-25px);
+    width: 50px;
+    height: 3px;
+    background-color: #156f5b; }
+
+.service-page .service-items {
+  margin-top: 4rem; }
+  .service-page .service-items .service-item_image {
+    width: 300px;
+    height: 300px; }
+    .service-page .service-items .service-item_image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .service-page .service-items .service-item_context {
+    margin-top: 1rem;
+    width: 300px; }
+    .service-page .service-items .service-item_context h3 {
+      font-size: 1.2rem;
+      line-height: 24px;
+      margin-bottom: 1rem; }
+      @media screen and (min-width: 780px) {
+        .service-page .service-items .service-item_context h3 {
+          font-size: 1.35rem; } }
+      @media screen and (min-width: 1280px) {
+        .service-page .service-items .service-item_context h3 {
+          font-size: 1.5rem; } }
+    .service-page .service-items .service-item_context p {
+      font-size: 0.9rem; }
+      @media screen and (min-width: 481px) {
+        .service-page .service-items .service-item_context p {
+          font-size: 1rem; } }
+      @media screen and (min-width: 1024px) {
+        .service-page .service-items .service-item_context p {
+          font-size: 1.1rem; } }

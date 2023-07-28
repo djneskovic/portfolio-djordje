@@ -5,9 +5,7 @@
 				class="hero-main mt-8 flex flex-col md:flex-row items-center justify-center md:justify-between text-center"
 			>
 				<div class="hero-context">
-					<h1 class="hero-context_title">
-						I'm Djordje Neskovic
-					</h1>
+					<h1 class="hero-context_title">I'm Đorđe Nešković</h1>
 					<p class="hero-context_text">
 						I am a professional Vue Developer seeking
 						employment opportunities.

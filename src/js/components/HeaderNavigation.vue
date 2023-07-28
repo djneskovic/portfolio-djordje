@@ -14,8 +14,12 @@
 						class="list-items"
 						:class="{ 'active-menu': isActive }"
 					>
-						<li class="list-item"><a href="#">Home</a></li>
-						<li class="list-item"><a href="#">About</a></li>
+						<li class="list-item">
+							<a href="#hero">Home</a>
+						</li>
+						<li class="list-item">
+							<a href="#about">About</a>
+						</li>
 						<li class="list-item">
 							<a href="#">Projects</a>
 						</li>

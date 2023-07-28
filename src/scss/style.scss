@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 @import "./includes/variables-and-mixins";
 
@@ -8,8 +9,13 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
-	font-family: "Inter", sans-serif;
+	// font-family: "Inter", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 900;
 	background-color: $white;
 	color: $black;
@@ -32,3 +38,4 @@ img {
 
 @import "./pages/heroPage";
 @import "./pages/aboutPage";
+@import "./pages/servicePage";
