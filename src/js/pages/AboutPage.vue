@@ -1,12 +1,7 @@
 <template>
-	<main id="about">
+	<main id="about" data-aos="fade-in" data-aos-duration="3000">
 		<div class="container">
-			<section
-				class="about-me"
-				data-aos="fade-right"
-				data-aos-duration="1500"
-				data-aos-offset="200"
-			>
+			<section class="about-me">
 				<h2 class="about-title text-center">About Me</h2>
 
 				<div
@@ -42,12 +37,12 @@
 			</section>
 
 			<!-- Services -->
-			<section data-aos="fade-left" data-aos-duration="1500">
+			<section>
 				<ServicesProviding />
 			</section>
 
 			<!-- Work Experience -->
-			<section data-aos="fade-right" data-aos-duration="1500">
+			<section>
 				<WorkExperience />
 			</section>
 		</div>
