@@ -9,6 +9,7 @@
 		"sass": "node-sass -w src/scss/ -o public/css --recursive"
 	},
 	"dependencies": {
+		"aos": "^2.3.4",
 		"core-js": "^3.8.3",
 		"node-sass": "^9.0.0",
 		"vue": "^3.2.13"

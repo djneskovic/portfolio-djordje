@@ -3,6 +3,11 @@
 		@include screen-md {
 			margin-top: 4rem;
 		}
+
+		@include screen-lg {
+			padding-left: 1rem;
+		}
+
 		&_title {
 			font-size: 1.75rem;
 

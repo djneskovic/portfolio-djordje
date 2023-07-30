@@ -34,6 +34,9 @@
 	}
 
 	.about-section {
+		@include screen-xl {
+			margin-bottom: 7rem;
+		}
 		.about-context {
 			margin-top: 2rem;
 
@@ -126,4 +129,8 @@
 			}
 		}
 	}
+}
+
+#about {
+	overflow: hidden;
 }

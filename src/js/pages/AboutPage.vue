@@ -1,7 +1,12 @@
 <template>
 	<main id="about">
 		<div class="container">
-			<section class="about-me">
+			<section
+				class="about-me"
+				data-aos="fade-right"
+				data-aos-duration="1500"
+				data-aos-offset="200"
+			>
 				<h2 class="about-title text-center">About Me</h2>
 
 				<div
@@ -35,15 +40,29 @@
 					</div>
 				</div>
 			</section>
+
+			<!-- Services -->
+			<section data-aos="fade-left" data-aos-duration="1500">
+				<ServicesProviding />
+			</section>
+
+			<!-- Work Experience -->
+			<section data-aos="fade-right" data-aos-duration="1500">
+				<WorkExperience />
+			</section>
 		</div>
 	</main>
 </template>
 
 <script>
 import ButtonPrimary from "../components/ButtonPrimary.vue";
+import ServicesProviding from "../components/ServicesProviding.vue";
+import WorkExperience from "../components/WorkExperience.vue";
 export default {
 	components: {
 		ButtonPrimary,
+		ServicesProviding,
+		WorkExperience,
 	},
 };
 </script>

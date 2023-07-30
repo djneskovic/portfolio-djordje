@@ -1,4 +1,5 @@
 .service-page {
+	margin-bottom: 4rem;
 	.service-title {
 		font-size: 1.2rem;
 		position: relative;
@@ -33,49 +34,5 @@
 
 	.service-items {
 		margin-top: 4rem;
-
-		.service-item {
-			&_image {
-				width: 300px;
-				height: 300px;
-
-				img {
-					width: 100%;
-					height: 100%;
-					object-fit: cover;
-				}
-			}
-
-			&_context {
-				margin-top: 1rem;
-				width: 300px;
-
-				h3 {
-					font-size: 1.2rem;
-					line-height: 24px;
-					margin-bottom: 1rem;
-
-					@include screen-md {
-						font-size: 1.35rem;
-					}
-
-					@include screen-xl {
-						font-size: 1.5rem;
-					}
-				}
-
-				p {
-					font-size: 0.9rem;
-
-					@include screen-sm {
-						font-size: 1rem;
-					}
-
-					@include screen-lg {
-						font-size: 1.1rem;
-					}
-				}
-			}
-		}
 	}
 }
