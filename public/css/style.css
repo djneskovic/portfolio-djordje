@@ -5,7 +5,8 @@
   box-sizing: border-box; }
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  scroll-padding-top: 25px; }
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -303,12 +304,21 @@ p {
 
 .form-container {
   position: relative;
-  margin: 30px;
-  max-width: 750px;
   background-color: #fff;
+  width: 300px;
   padding: 30px;
   border-left: 5px solid #f3bf6c;
-  box-shadow: 0px 0px 45px 0px #f0ebeb; }
+  box-shadow: 0px 0px 45px 0px #f0ebeb;
+  margin-top: 4rem; }
+  @media screen and (min-width: 420px) {
+    .form-container {
+      width: 350px; } }
+  @media screen and (min-width: 481px) {
+    .form-container {
+      width: 400px; } }
+  @media screen and (min-width: 1024px) {
+    .form-container {
+      width: 600px; } }
 
 .form-container::before {
   position: absolute;
@@ -405,57 +415,91 @@ p {
   background: #f3bf6c;
   color: #156f5b; }
 
-@media screen and (min-width: 780px) {
-  .hero-main .hero-context {
-    margin-top: 4rem; } }
-
-@media screen and (min-width: 1024px) {
-  .hero-main .hero-context {
-    padding-left: 1rem; } }
-
-.hero-main .hero-context_title {
-  font-size: 1.75rem; }
-  @media screen and (min-width: 420px) {
-    .hero-main .hero-context_title {
-      font-size: 2rem; } }
-  @media screen and (min-width: 481px) {
-    .hero-main .hero-context_title {
-      font-size: 2.4rem; } }
+.contact-infos {
+  margin-top: 2.5rem; }
   @media screen and (min-width: 780px) {
-    .hero-main .hero-context_title {
-      font-size: 2rem; } }
+    .contact-infos {
+      margin-top: 4rem; } }
+  .contact-infos .contact-info {
+    background-color: #fff;
+    box-shadow: 0px 0px 45px 0px #f0ebeb;
+    border-radius: 10px;
+    width: 300px;
+    padding: 2rem 0; }
+    .contact-infos .contact-info .icon {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #156f5b; }
+    .contact-infos .contact-info h3 {
+      color: #4d4d4d;
+      font-weight: 500; }
+
+.contact-context {
+  margin-top: 4rem;
+  width: 250px; }
+  .contact-context h4 {
+    font-size: 1.3rem; }
+  .contact-context .line {
+    height: 3px;
+    width: 20px;
+    background: #f3bf6c;
+    border: 10px;
+    margin: 1.5rem 0; }
+  .contact-context p {
+    font-size: 0.9rem; }
+    @media screen and (min-width: 780px) {
+      .contact-context p {
+        font-size: 1.1rem; } }
+
+.hero-main {
+  margin-bottom: 4rem; }
+  @media screen and (min-width: 780px) {
+    .hero-main .hero-context {
+      margin-top: 4rem; } }
   @media screen and (min-width: 1024px) {
-    .hero-main .hero-context_title {
-      font-size: 2.4rem; } }
-  @media screen and (min-width: 1280px) {
-    .hero-main .hero-context_title {
-      font-size: 3.4rem; } }
-
-.hero-main .hero-context_text {
-  margin: 1.5rem 0 2rem 0;
-  color: #4d4d4d;
-  font-size: 0.9rem; }
-  @media screen and (min-width: 420px) {
-    .hero-main .hero-context_text {
-      font-size: 1.1rem; } }
-  @media screen and (min-width: 481px) {
-    .hero-main .hero-context_text {
-      font-size: 1.3rem; } }
-  @media screen and (min-width: 780px) {
-    .hero-main .hero-context_text {
-      font-size: 1.1rem; } }
-  @media screen and (min-width: 1024px) {
-    .hero-main .hero-context_text {
-      font-size: 1.4rem; } }
-  @media screen and (min-width: 1280px) {
-    .hero-main .hero-context_text {
-      font-size: 1.5rem; } }
-
-.hero-main .hero-image {
-  margin-top: 2rem; }
-  @media screen and (min-width: 780px) {
-    .hero-main .hero-image {
-      margin: 0rem; } }
+    .hero-main .hero-context {
+      padding-left: 1rem; } }
+  .hero-main .hero-context_title {
+    font-size: 1.75rem; }
+    @media screen and (min-width: 420px) {
+      .hero-main .hero-context_title {
+        font-size: 2rem; } }
+    @media screen and (min-width: 481px) {
+      .hero-main .hero-context_title {
+        font-size: 2.4rem; } }
+    @media screen and (min-width: 780px) {
+      .hero-main .hero-context_title {
+        font-size: 2rem; } }
+    @media screen and (min-width: 1024px) {
+      .hero-main .hero-context_title {
+        font-size: 2.4rem; } }
+    @media screen and (min-width: 1280px) {
+      .hero-main .hero-context_title {
+        font-size: 3.4rem; } }
+  .hero-main .hero-context_text {
+    margin: 1.5rem 0 2rem 0;
+    color: #4d4d4d;
+    font-size: 0.9rem; }
+    @media screen and (min-width: 420px) {
+      .hero-main .hero-context_text {
+        font-size: 1.1rem; } }
+    @media screen and (min-width: 481px) {
+      .hero-main .hero-context_text {
+        font-size: 1.3rem; } }
+    @media screen and (min-width: 780px) {
+      .hero-main .hero-context_text {
+        font-size: 1.1rem; } }
+    @media screen and (min-width: 1024px) {
+      .hero-main .hero-context_text {
+        font-size: 1.4rem; } }
+    @media screen and (min-width: 1280px) {
+      .hero-main .hero-context_text {
+        font-size: 1.5rem; } }
+  .hero-main .hero-image {
+    margin-top: 2rem; }
+    @media screen and (min-width: 780px) {
+      .hero-main .hero-image {
+        margin: 0rem; } }
 
 @media screen and (min-width: 1024px) {
   #hero {
@@ -464,7 +508,7 @@ p {
     place-items: center; } }
 
 .about-me {
-  margin: 3rem 0 4rem; }
+  margin-bottom: 4rem; }
   .about-me .about-title {
     font-size: 1.55rem;
     position: relative; }
@@ -614,5 +658,32 @@ p {
       left: 50%;
       transform: translateX(-15px);
       width: 30px;
+      height: 3px;
+      background-color: #156f5b; }
+
+.contact {
+  margin-bottom: 4rem; }
+  .contact-title {
+    font-size: 1.55rem;
+    position: relative; }
+    @media screen and (min-width: 481px) {
+      .contact-title {
+        font-size: 1.7rem; } }
+    @media screen and (min-width: 780px) {
+      .contact-title {
+        font-size: 2rem; } }
+    @media screen and (min-width: 1024px) {
+      .contact-title {
+        font-size: 2.4rem; } }
+    @media screen and (min-width: 1280px) {
+      .contact-title {
+        font-size: 2.7rem; } }
+    .contact-title::after {
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      left: 50%;
+      transform: translateX(-25px);
+      width: 50px;
       height: 3px;
       background-color: #156f5b; }

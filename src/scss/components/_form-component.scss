@@ -1,11 +1,23 @@
 .form-container {
 	position: relative;
-	margin: 30px;
-	max-width: 750px;
 	background-color: #fff;
+	width: 300px;
 	padding: 30px;
 	border-left: 5px solid #f3bf6c;
 	box-shadow: 0px 0px 45px 0px #f0ebeb;
+	margin-top: 4rem;
+
+	@include screen-sm-apple {
+		width: 350px;
+	}
+
+	@include screen-sm {
+		width: 400px;
+	}
+
+	@include screen-lg {
+		width: 600px;
+	}
 }
 
 .form-container::before {

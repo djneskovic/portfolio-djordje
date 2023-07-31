@@ -1,0 +1,34 @@
+.contact {
+	margin-bottom: 4rem;
+	&-title {
+		font-size: 1.55rem;
+		position: relative;
+
+		@include screen-sm {
+			font-size: 1.7rem;
+		}
+
+		@include screen-md {
+			font-size: 2rem;
+		}
+
+		@include screen-lg {
+			font-size: 2.4rem;
+		}
+
+		@include screen-xl {
+			font-size: 2.7rem;
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			bottom: -2px;
+			left: 50%;
+			transform: translateX(-25px);
+			width: 50px; //* Moraces da povecavas width u odnosu na responsive, tj kad se promeni font
+			height: 3px;
+			background-color: $green;
+		}
+	}
+}

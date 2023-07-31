@@ -11,6 +11,7 @@
 
 html {
 	scroll-behavior: smooth;
+	scroll-padding-top: 25px;
 }
 
 body {
@@ -45,8 +46,11 @@ p {
 @import "../scss/components/experience-item";
 @import "../scss/components/carousel-item";
 @import "../scss/components/reviews-persons";
-
 @import "../scss/components/form-component";
+@import "../scss/components/contact-info";
+@import "../scss/components/contact-context";
+
 @import "./pages/heroPage";
 @import "./pages/aboutPage";
 @import "./pages/projectsPage";
+@import "./pages/contactPage";

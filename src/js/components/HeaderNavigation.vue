@@ -15,15 +15,21 @@
 						:class="{ 'active-menu': isActive }"
 					>
 						<li class="list-item">
-							<a href="#hero">Home</a>
+							<a href="#hero" @click="close()">Home</a>
 						</li>
 						<li class="list-item">
-							<a href="#about">About</a>
+							<a href="#about" @click="close()">About</a>
 						</li>
 						<li class="list-item">
-							<a href="#projects">Projects</a>
+							<a href="#projects" @click="close()"
+								>Projects</a
+							>
 						</li>
-						<li class="list-item"><a href="#">Contact</a></li>
+						<li class="list-item">
+							<a href="#contact" @click="close()"
+								>Contact</a
+							>
+						</li>
 					</ul>
 				</div>
 
@@ -67,6 +73,9 @@ export default {
 	methods: {
 		toggle() {
 			this.isActive = !this.isActive;
+		},
+		close() {
+			this.isActive = false;
 		},
 	},
 };
