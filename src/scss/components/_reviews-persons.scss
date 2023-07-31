@@ -1,0 +1,48 @@
+.reviews-item {
+	// margin: 2rem 0;
+	background: #fff;
+	box-shadow: 0px 0px 45px 0px #f0ebeb;
+	border-radius: 10px;
+	padding: 2rem 3rem;
+	width: 300px;
+
+	.quotes {
+		font-size: 1.3rem;
+	}
+
+	&__image {
+		margin: 2rem 0;
+
+		img {
+			height: 60px;
+			width: 60px;
+			border-radius: 50%;
+			border: 2px solid $green;
+			object-fit: cover;
+		}
+	}
+
+	p {
+		font-size: 0.9rem;
+
+		@include screen-sm {
+			font-size: 1rem;
+		}
+
+		@include screen-md {
+			font-size: 0.85rem;
+		}
+
+		@include screen-lg {
+			font-size: 1.1rem;
+		}
+	}
+
+	.line {
+		height: 3px;
+		width: 20px;
+		background: $green;
+		border: 10px;
+		margin: 2.5rem 0;
+	}
+}

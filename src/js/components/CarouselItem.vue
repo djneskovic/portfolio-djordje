@@ -9,10 +9,13 @@
 			:itemsToShow="carouselItemsToShow"
 			:wrapAround="true"
 			:transition="500"
+			:autoplay="2000"
 		>
 			<Slide v-for="slide in sites" :key="slide">
 				<div class="carousel__item">
-					<img :src="slide.img" alt="" />
+					<div class="image-container">
+						<img :src="slide.img" alt="" />
+					</div>
 					<a :href="slide.link" class="mt-4 block">Go to site</a>
 					<p class="text-gold text-sm">{{ slide.info }}</p>
 				</div>
@@ -38,7 +41,7 @@ export default defineComponent({
 		return {
 			sites: [
 				{
-					img: "/images/Aryen.jpg",
+					img: "/images/Aryen11.jpg",
 					link: "https://google.com",
 					info: "In Development",
 				},

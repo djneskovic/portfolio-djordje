@@ -1,5 +1,5 @@
 <template>
-	<main id="about" data-aos="fade-in" data-aos-duration="3000">
+	<main id="about" data-aos="fade-in" data-aos-duration="1500">
 		<div class="container">
 			<section class="about-me">
 				<h2 class="about-title text-center">About Me</h2>

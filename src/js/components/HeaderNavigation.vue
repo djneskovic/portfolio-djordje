@@ -21,7 +21,7 @@
 							<a href="#about">About</a>
 						</li>
 						<li class="list-item">
-							<a href="#">Projects</a>
+							<a href="#projects">Projects</a>
 						</li>
 						<li class="list-item"><a href="#">Contact</a></li>
 					</ul>
