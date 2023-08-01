@@ -16,8 +16,9 @@
 					<div class="image-container">
 						<img :src="slide.img" alt="" />
 					</div>
-					<a :href="slide.link" class="mt-4 block">Go to site</a>
-					<p class="text-gold text-sm">{{ slide.info }}</p>
+					<a :href="slide.link" class="mt-4 block">{{
+						slide.btnText
+					}}</a>
 				</div>
 			</Slide>
 		</Carousel>
@@ -42,16 +43,18 @@ export default defineComponent({
 			sites: [
 				{
 					img: "/images/Aryen11.jpg",
-					link: "https://google.com",
-					info: "In Development",
+					link: "#",
+					btnText: "In Development",
 				},
 				{
 					img: "/images/recipe.jpg",
-					link: "www.yahoo.com",
+					link: "https://recipe-app-by-djordje.netlify.app/mymeals",
+					btnText: "Go To Website",
 				},
 				{
 					img: "/images/weather.jpg",
-					link: "www.youtube.com",
+					link: "https://weather-app-by-djordje.netlify.app/forecast",
+					btnText: "Go To Website",
 				},
 			],
 			touchStartX: 0,
@@ -142,7 +145,7 @@ export default defineComponent({
 
 		updateItemsToShow() {
 			const screenWidth = window.innerWidth;
-			if (screenWidth >= 481) {
+			if (screenWidth >= 781) {
 				this.carouselItemsToShow = 2;
 			} else {
 				this.carouselItemsToShow = 1; // Show 1 item at a time for smaller devices (e.g., mobile)

@@ -37,3 +37,18 @@
 	opacity: 1;
 	transform: rotateY(0) scale(1.1);
 }
+
+.image-container {
+	@include screen-lg {
+		height: 230px;
+	}
+	@include screen-md {
+		height: 290px;
+	}
+
+	img {
+		height: 100%;
+		width: auto;
+		object-fit: cover;
+	}
+}

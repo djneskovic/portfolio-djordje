@@ -1,0 +1,28 @@
+.footer {
+	height: 100%;
+	div {
+		@include screen-md {
+			margin-left: auto;
+		}
+	}
+	.logo {
+		width: 150px;
+		// height: 150px;
+	}
+
+	.email {
+		p {
+			margin-top: -3rem;
+			font-size: 1.3rem;
+
+			@include screen-md {
+				margin-top: 0;
+				font-size: 1.1rem;
+			}
+
+			@include screen-lg {
+				font-size: 1.2rem;
+			}
+		}
+	}
+}

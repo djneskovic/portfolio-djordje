@@ -38,6 +38,12 @@ p {
 	font-weight: 500;
 }
 
+.fade-section {
+	opacity: 0;
+	transform: translateX(-50px) translateY(-20px);
+	transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
 @import "../scss/components/button-primary";
 @import "../scss/components/header-navigation";
 @import "../scss/components/service-item";
@@ -49,6 +55,7 @@ p {
 @import "../scss/components/form-component";
 @import "../scss/components/contact-info";
 @import "../scss/components/contact-context";
+@import "../scss/components/footer-component";
 
 @import "./pages/heroPage";
 @import "./pages/aboutPage";

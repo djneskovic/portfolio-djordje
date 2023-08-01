@@ -1,5 +1,5 @@
 <template>
-	<main id="projects" data-aos="fade-in">
+	<main id="projects">
 		<div class="container">
 			<section class="projects">
 				<h2 class="text-center projects-title mb-12">My Work</h2>

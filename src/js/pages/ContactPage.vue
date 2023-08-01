@@ -1,5 +1,5 @@
 <template>
-	<main id="contact" data-aos="fade-in" data-aos-duration="1500">
+	<main id="contact">
 		<div class="container">
 			<div class="contact">
 				<h2 class="contact-title text-center">Contact</h2>
