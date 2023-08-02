@@ -5,7 +5,7 @@
 				<h2 class="text-center exp-title">Work Experience</h2>
 
 				<div
-					class="exp-items flex flex-col items-center lg:items-start justify-center lg:flex-row gap-8 lg:gap-12"
+					class="exp-items flex flex-col items-center lg:items-start justify-center lg:flex-row lg:gap-12"
 				>
 					<ExperienceItem
 						v-for="item in expItem"
@@ -31,7 +31,7 @@ export default {
 			expItem: [
 				{
 					title: "Coding",
-					desc: "I possess a strong proficiency in coding, enabling me to efficiently create and maintain complex web applications using Vue.js framework. With a meticulous attention to detail and a deep understanding of coding principles, I am capable of crafting robust and scalable solutions to meet the unique requirements of any project.",
+					desc: "As a newcomer to coding, I have valuable experience in Vue.js. Through personal projects and self-learning, I've developed practical skills in Vue.js development and problem-solving. Eager to contribute and grow as a developer.",
 				},
 
 				{
@@ -40,8 +40,8 @@ export default {
 				},
 
 				{
-					title: "UX",
-					desc: "I possess a strong skill set in UX (User Experience) design. With a meticulous attention to detail and a deep understanding of user behavior, I am able to create intuitive and visually appealing interfaces that enhance user satisfaction and engagement.",
+					title: "Video Editing",
+					desc: "I have relevant video editing work experience, showcasing my expertise in creating compelling visual content. Proficient in various editing software, I bring creativity and attention to detail to deliver engaging and professional videos.",
 				},
 			],
 		};

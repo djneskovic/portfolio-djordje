@@ -14,15 +14,16 @@
 						</h3>
 
 						<p class="about-text">
-							I am a junior Vue Developer actively seeking
-							employment opportunities. With a strong
-							background in Vue development, I possess the
-							technical expertise and experience necessary
-							to contribute to any development team. My
-							proficiency in Vue.js allows me to create
-							efficient and scalable web applications. I am
-							highly motivated, detail-oriented, and
-							committed to delivering high-quality code.
+							As a junior Vue.js developer, I bring
+							experience, teamwork, motivation, and a
+							thirst for learning. Eager to contribute my
+							skills and grow, I thrive in collaborative
+							environments, seeking innovative solutions to
+							challenges. I'm dedicated to staying
+							up-to-date with web development trends and
+							excited to join a company that values
+							professional growth. Let's create amazing web
+							experiences together!
 						</p>
 						<button-primary>Contact Me</button-primary>
 					</div>

@@ -37,7 +37,7 @@ export default {
 					imageAlt: "",
 					title: "Junior Vue Developer Seeking Employment",
 					description:
-						"I offer professional front-end development services, specializing in Vue.js, to help businesses create modern and interactive web applications.",
+						"I offer front-end development services, specializing in Vue.js, to help businesses create modern and interactive web applications.",
 				},
 				{
 					imageSrc: "/images/officeThree.jpg",

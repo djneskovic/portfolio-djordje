@@ -241,14 +241,14 @@ p {
       animation: fillSkill 700ms ease;
       line-height: 10px;
       background-color: #156f5b;
-      width: 75%;
+      width: 100%;
       height: 100%; }
 
 @keyframes fillSkill {
   0% {
     width: 0; }
   100% {
-    width: 75%; } }
+    width: 100%; } }
 
 .carousel__slide {
   padding: 5px; }
