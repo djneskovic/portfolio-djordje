@@ -47,7 +47,7 @@
 						</button>
 					</div>
 					<div class="hire-me hidden md:block">
-						<button-primary class="hire"
+						<button-primary class="hire" href="#contact"
 							>Hire Me</button-primary
 						>
 					</div>
