@@ -16,7 +16,7 @@
 					<div class="image-container">
 						<img :src="slide.img" alt="" />
 					</div>
-					<a :href="slide.link" class="mt-4 block">{{
+					<a :href="slide.link" class="mt-6 carousel-btn">{{
 						slide.btnText
 					}}</a>
 				</div>
@@ -49,12 +49,17 @@ export default defineComponent({
 				{
 					img: "/images/recipe.jpg",
 					link: "https://recipe-app-by-djordje.netlify.app/mymeals",
-					btnText: "Go To Website",
+					btnText: "Recipe App",
 				},
 				{
 					img: "/images/weather.jpg",
 					link: "https://weather-app-by-djordje.netlify.app/forecast",
-					btnText: "Go To Website",
+					btnText: "Weather App",
+				},
+				{
+					img: "/images/bmi.png",
+					link: "https://bmi-calculator-by-djordje.netlify.app/",
+					btnText: "BMI Calculator",
 				},
 			],
 			touchStartX: 0,

@@ -291,6 +291,13 @@ p {
   width: auto;
   object-fit: cover; }
 
+.carousel-btn {
+  background-color: #156f5b;
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  color: #fffdf9;
+  border-radius: 5px; }
+
 .reviews-item {
   background: #fff;
   box-shadow: 0px 0px 45px 0px #f0ebeb;
