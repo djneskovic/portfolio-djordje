@@ -25,7 +25,9 @@
 							professional growth. Let's create amazing web
 							experiences together!
 						</p>
-						<button-primary>Contact Me</button-primary>
+						<button-primary href="#contact"
+							>Contact Me</button-primary
+						>
 					</div>
 
 					<div class="about-image">
