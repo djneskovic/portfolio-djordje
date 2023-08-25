@@ -61,6 +61,11 @@ export default defineComponent({
 					link: "https://bmi-calculator-by-djordje.netlify.app/",
 					btnText: "BMI Calculator",
 				},
+				{
+					img: "/images/bank.png",
+					link: "https://bank-app-by-djordje.netlify.app/",
+					btnText: "Bank App",
+				},
 			],
 			touchStartX: 0,
 			touchEndX: 0,
