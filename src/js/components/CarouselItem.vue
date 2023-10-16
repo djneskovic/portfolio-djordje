@@ -66,6 +66,11 @@ export default defineComponent({
 					link: "https://bank-app-by-djordje.netlify.app/",
 					btnText: "Bank App",
 				},
+				{
+					img: "/images/snake.png",
+					link: "https://snake-game-by-djordje.netlify.app/",
+					btnText: "Snake Game",
+				},
 			],
 			touchStartX: 0,
 			touchEndX: 0,
