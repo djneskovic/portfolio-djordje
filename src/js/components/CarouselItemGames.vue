@@ -42,29 +42,14 @@ export default defineComponent({
 		return {
 			sites: [
 				{
-					img: "/images/Aryen11.jpg",
-					link: "#",
-					btnText: "In Development",
+					img: "/images/snake.png",
+					link: "https://snake-game-by-djordje.netlify.app/",
+					btnText: "Snake Game",
 				},
 				{
-					img: "/images/recipe.jpg",
-					link: "https://recipe-app-by-djordje.netlify.app/mymeals",
-					btnText: "Recipe App",
-				},
-				{
-					img: "/images/weather.jpg",
-					link: "https://weather-app-by-djordje.netlify.app/forecast",
-					btnText: "Weather App",
-				},
-				{
-					img: "/images/bmi.png",
-					link: "https://bmi-calculator-by-djordje.netlify.app/",
-					btnText: "BMI Calculator",
-				},
-				{
-					img: "/images/bank.png",
-					link: "https://bank-app-by-djordje.netlify.app/",
-					btnText: "Bank App",
+					img: "/images/memory.png",
+					link: "https://memory-game-by-djordje.netlify.app/",
+					btnText: "Memory Game",
 				},
 			],
 			touchStartX: 0,

@@ -2,9 +2,12 @@
 	<main id="projects">
 		<div class="container">
 			<section class="projects">
-				<h2 class="text-center projects-title mb-12">My Work</h2>
+				<h2 class="text-center projects-title mb-12">My Apps</h2>
 
 				<CarouselItem />
+				<h2 class="text-center projects-title my-12">My Games</h2>
+
+				<CarouselItemGames />
 			</section>
 
 			<section class="reviews">
@@ -29,11 +32,13 @@
 
 <script>
 import CarouselItem from "../components/CarouselItem.vue";
+import CarouselItemGames from "../components/CarouselItemGames.vue";
 import ReviewsPersons from "../components/ReviewsPersons.vue";
 export default {
 	components: {
 		CarouselItem,
 		ReviewsPersons,
+		CarouselItemGames,
 	},
 
 	data() {
