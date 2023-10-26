@@ -51,6 +51,16 @@ export default defineComponent({
 					link: "https://memory-game-by-djordje.netlify.app/",
 					btnText: "Memory Game",
 				},
+				{
+					img: "/images/tictac.png",
+					link: "https://tictactoe-game-by-djordje.netlify.app/",
+					btnText: "Tic Tac Toe Game",
+				},
+				{
+					img: "/images/smack.png",
+					link: "https://smack-a-kong-game-by-djordje.netlify.app/",
+					btnText: "Smack a Kong Game",
+				},
 			],
 			touchStartX: 0,
 			touchEndX: 0,
