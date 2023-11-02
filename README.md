@@ -1,24 +1,26 @@
-# test
+# Portfolio
 
-## Project setup
-```
-npm install
-```
+## Who am I?
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
+Hi, my name is Djordje and I'm front-end developer.
 ```
 
-### Compiles and minifies for production
+### Skills
+
 ```
-npm run build
+Html
+Css(Sass, TailwindCss)
+JavaScript(jQuerry)
+VueJs(Vuetify)
+Video Editing(Adobe Premiere Pro, DaVinci Resolve)
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Contact
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+If you are interested, you can find me on
+
+LinkedIn(Djordje Neskovic)
+Email(djneskovic@gmail.com)
+```
