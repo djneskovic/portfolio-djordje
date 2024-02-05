@@ -46,9 +46,17 @@
 							</span>
 						</button>
 					</div>
-					<div class="hire-me hidden md:block">
+					<div class="hire-me hidden md:flex md:gap-4">
 						<button-primary class="hire" href="#contact"
 							>Hire Me</button-primary
+						>
+						<button-primary
+							class="hire"
+							href="https://drive.google.com/uc?id=17m_LX79rGhJcliaq277w1BLQOG_Xev2d"
+							target="_blank"
+							rel="noopener noreferrer"
+							download="Djordje-Neskovic-CV.pdf"
+							>Download CV</button-primary
 						>
 					</div>
 				</div>

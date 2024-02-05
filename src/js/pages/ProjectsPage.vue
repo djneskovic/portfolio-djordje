@@ -10,10 +10,20 @@
 				<CarouselItemGames />
 			</section>
 
-			<section class="reviews">
+			<section class="reviews flex flex-col justify-center">
 				<h2 class="reviews-title text-center">
 					What My Clients Say
 				</h2>
+
+				<button-primary
+					class="hire mt-16 mb-4 inline-block self-center"
+					href="https://drive.google.com/file/d/10WQJSEbz8q1pItuXstWKogb3VHg1CwHK/view?usp=sharing"
+					target="_blank"
+					rel="noopener noreferrer"
+					download="Reference-Letter.pdf"
+					>Reference letter</button-primary
+				>
+
 				<div
 					class="flex flex-col items-center justify-center md:flex-row md:gap-4 lg:gap-8 gap-8 mt-12"
 				>
@@ -34,11 +44,14 @@
 import CarouselItem from "../components/CarouselItem.vue";
 import CarouselItemGames from "../components/CarouselItemGames.vue";
 import ReviewsPersons from "../components/ReviewsPersons.vue";
+import ButtonPrimary from "../components/ButtonPrimary.vue";
+
 export default {
 	components: {
 		CarouselItem,
 		ReviewsPersons,
 		CarouselItemGames,
+		ButtonPrimary,
 	},
 
 	data() {

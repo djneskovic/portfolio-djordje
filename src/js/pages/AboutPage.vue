@@ -25,9 +25,19 @@
 							professional growth. Let's create amazing web
 							experiences together!
 						</p>
-						<button-primary href="#contact"
-							>Contact Me</button-primary
-						>
+						<div class="flex gap-4">
+							<button-primary href="#contact"
+								>Contact Me</button-primary
+							>
+							<button-primary
+								class="hire"
+								href="https://drive.google.com/uc?id=17m_LX79rGhJcliaq277w1BLQOG_Xev2d"
+								target="_blank"
+								rel="noopener noreferrer"
+								download="Djordje-Neskovic-CV.pdf"
+								>Download CV</button-primary
+							>
+						</div>
 					</div>
 
 					<div class="about-image">
