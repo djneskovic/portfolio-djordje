@@ -2,11 +2,21 @@
 	<main id="projects">
 		<div class="container">
 			<section class="projects">
-				<h2 class="text-center projects-title mb-12">My Apps</h2>
+				<!-- Carousel Real Projects -->
+				<h2 class="text-center projects-title mb-4 md:mb-12">
+					Real Time Projects
+				</h2>
+				<CarouselRealProjects />
 
+				<!-- Carousel Apps -->
+				<h2 class="text-center projects-title my-4 md:my-12">
+					My Apps
+				</h2>
 				<CarouselItem />
-				<h2 class="text-center projects-title my-12">My Games</h2>
-
+				<!-- Carousel Games -->
+				<h2 class="text-center projects-title my-4 md:my-12">
+					My Games
+				</h2>
 				<CarouselItemGames />
 			</section>
 
@@ -43,6 +53,7 @@
 <script>
 import CarouselItem from "../components/CarouselItem.vue";
 import CarouselItemGames from "../components/CarouselItemGames.vue";
+import CarouselRealProjects from "../components/CarouselRealProjects.vue";
 import ReviewsPersons from "../components/ReviewsPersons.vue";
 import ButtonPrimary from "../components/ButtonPrimary.vue";
 
@@ -52,6 +63,7 @@ export default {
 		ReviewsPersons,
 		CarouselItemGames,
 		ButtonPrimary,
+		CarouselRealProjects,
 	},
 
 	data() {

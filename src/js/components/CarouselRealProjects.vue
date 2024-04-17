@@ -42,24 +42,19 @@ export default defineComponent({
 		return {
 			sites: [
 				{
-					img: "/images/recipe.jpg",
-					link: "https://recipe-app-by-djordje.netlify.app/mymeals",
-					btnText: "Recipe App",
+					img: "/images/Aryen11.jpg",
+					link: "http://167.172.169.25/",
+					btnText: "Ranch Aryen",
+				},
+				{
+					img: "/images/reflection.png",
+					link: "https://reflections-academy.com/",
+					btnText: "Reflection Academy",
 				},
 				{
 					img: "/images/weather.jpg",
 					link: "https://weather-app-by-djordje.netlify.app/forecast",
 					btnText: "Weather App",
-				},
-				{
-					img: "/images/bmi.png",
-					link: "https://bmi-calculator-by-djordje.netlify.app/",
-					btnText: "BMI Calculator",
-				},
-				{
-					img: "/images/bank.png",
-					link: "https://bank-app-by-djordje.netlify.app/",
-					btnText: "Bank App",
 				},
 			],
 			touchStartX: 0,
