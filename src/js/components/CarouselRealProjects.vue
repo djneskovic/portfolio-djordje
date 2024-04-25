@@ -51,11 +51,11 @@ export default defineComponent({
 					link: "https://reflections-academy.com/",
 					btnText: "Reflection Academy",
 				},
-				{
-					img: "/images/weather.jpg",
-					link: "https://weather-app-by-djordje.netlify.app/forecast",
-					btnText: "Weather App",
-				},
+				// {
+				// 	img: "/images/weather.jpg",
+				// 	link: "https://weather-app-by-djordje.netlify.app/forecast",
+				// 	btnText: "Weather App",
+				// },
 			],
 			touchStartX: 0,
 			touchEndX: 0,
