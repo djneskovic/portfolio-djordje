@@ -52,7 +52,7 @@
 						>
 						<button-primary
 							class="hire"
-							href="https://drive.google.com/uc?id=17m_LX79rGhJcliaq277w1BLQOG_Xev2d"
+							href="https://drive.google.com/file/d/197RZcp6hFvyoScqrCEstJNhCHAPOJ-fJ/view?usp=sharing"
 							target="_blank"
 							rel="noopener noreferrer"
 							download="Djordje-Neskovic-CV.pdf"
