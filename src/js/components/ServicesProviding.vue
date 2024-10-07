@@ -35,14 +35,14 @@ export default {
 				{
 					imageSrc: "/images/office.jpg",
 					imageAlt: "",
-					title: "Junior Vue Developer Seeking Employment",
+					title: "Vue Developer Seeking Employment",
 					description:
 						"I offer front-end development services, specializing in Vue.js, to help businesses create modern and interactive web applications.",
 				},
 				{
 					imageSrc: "/images/officeThree.jpg",
 					imageAlt: "",
-					title: "Junior Vue Developer Specializing in UI/UX",
+					title: "Vue Developer Specializing in UI/UX",
 					description:
 						"Crafting responsive websites with creativity and precision. Enhancing UX/UI for seamless user interactions. Code-driven innovation awaits!",
 				},

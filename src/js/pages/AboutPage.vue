@@ -9,21 +9,21 @@
 				>
 					<div class="about-context">
 						<h3>
-							Junior Vue Developer
+							Vue Developer
 							<span>Seeking</span> Job Opportunities
 						</h3>
 
 						<p class="about-text">
-							As a junior Vue.js developer, I bring
-							experience, teamwork, motivation, and a
-							thirst for learning. Eager to contribute my
-							skills and grow, I thrive in collaborative
-							environments, seeking innovative solutions to
-							challenges. I'm dedicated to staying
-							up-to-date with web development trends and
-							excited to join a company that values
-							professional growth. Let's create amazing web
-							experiences together!
+							As a Vue.js developer, I bring experience,
+							teamwork, motivation, and a thirst for
+							learning. Eager to contribute my skills and
+							grow, I thrive in collaborative environments,
+							seeking innovative solutions to challenges.
+							I'm dedicated to staying up-to-date with web
+							development trends and excited to join a
+							company that values professional growth.
+							Let's create amazing web experiences
+							together!
 						</p>
 						<div class="flex gap-4">
 							<button-primary href="#contact"

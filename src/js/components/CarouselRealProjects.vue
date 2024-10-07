@@ -57,9 +57,14 @@ export default defineComponent({
 					btnText: "Safe Driver MV",
 				},
 				{
-					img: "/images/polymaker.png",
+					img: "/images/filamenti.png",
 					link: "https://filamenti.rs/",
 					btnText: "Filamenti.rs",
+				},
+				{
+					img: "/images/meta.png",
+					link: "https://metabuild3d.com/",
+					btnText: "Metabuild3D",
 				},
 			],
 			touchStartX: 0,
