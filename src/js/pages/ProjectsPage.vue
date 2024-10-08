@@ -80,8 +80,8 @@ export default {
 					desc: "The Vue developer service delivered efficient and user-friendly web applications with responsive designs.",
 				},
 				{
-					imageSrc: "/images/masa.jpg",
-					title: "Maša G.",
+					imageSrc: "/images/lazar.jpg",
+					title: "Lazar Đ.",
 					desc: "The video editing service produced high-quality videos with impressive visual effects and smooth transitions.",
 				},
 			],
